@@ -1,0 +1,48 @@
+
+
+td,
+th {
+    /* setting the style of the heading or the names of the flights */
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: skyblue;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+/* table css */
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+/* set the background color with lightgreen color  */
+.color td:hover{
+    background-color: lightgreen;
+}
+
+/* set the table margin  */
+.color{
+    margin-top: 6%;
+    margin-left: 15%;
+}
