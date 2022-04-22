@@ -5063,7 +5063,8 @@ if(item != null){
   if(item.time!=null){
     //here we will convert the time key's value a number with slicing it only for first two elements 
     item.time=item.time.slice(0,2);
-    item.time=parseInt(item.time)+1;
+    item.time=parseInt(item.time);
+      //item.time=parseInt(item.time)+1;
     if(item.airline == 'aal')
     //push the alaska airlines  item into the aal array 
         aal.push(item) 
